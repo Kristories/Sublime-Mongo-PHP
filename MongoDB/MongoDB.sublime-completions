@@ -1,0 +1,101 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"php",
+
+    	{ 
+	    	"trigger"	: "MongoDB::authenticate", 
+	    	"contents"	: "authenticate(username, password)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::command", 
+	    	"contents"	: "command(command, options)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB", 
+	    	"contents"	: "new MongoDB($connection, 'database')" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::createCollection", 
+	    	"contents"	: "createCollection(collection, capped, size, max)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::createDBRef", 
+	    	"contents"	: "createDBRef(collection, object)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::drop", 
+	    	"contents"	: "drop()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::execute", 
+	    	"contents"	: "execute(code, args)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::forceError", 
+	    	"contents"	: "forceError()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getCollectionNames", 
+	    	"contents"	: "getCollectionNames(includeSystemCollections)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getDBRef", 
+	    	"contents"	: "getDBRef(ref)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getGridFS", 
+	    	"contents"	: "getGridFS(prefix)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getProfilingLevel", 
+	    	"contents"	: "getProfilingLevel()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getReadPreference", 
+	    	"contents"	: "getReadPreference()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::getSlaveOkay", 
+	    	"contents"	: "getSlaveOkay()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::lastError", 
+	    	"contents"	: "lastError()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::listCollections", 
+	    	"contents"	: "listCollections(includeSystemCollections)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::prevError", 
+	    	"contents"	: "prevError()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::repair", 
+	    	"contents"	: "repair(preserve_cloned_files, backup_original_files)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::resetError", 
+	    	"contents"	: "resetError()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::selectCollection", 
+	    	"contents"	: "selectCollection(collection)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::setProfilingLevel", 
+	    	"contents"	: "setProfilingLevel(level)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::setReadPreference", 
+	    	"contents"	: "setReadPreference(read_preference, tags)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoDB::setSlaveOkay", 
+	    	"contents"	: "setSlaveOkay(ok)"
+    	}
+  	]
+}

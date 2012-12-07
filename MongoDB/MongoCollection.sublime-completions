@@ -1,0 +1,113 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"php",
+
+    	{ 
+	    	"trigger"	: "MongoCollection::aggregate", 
+	    	"contents"	: "aggregate(pipeline, op, ...)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::batchInsert", 
+	    	"contents"	: "batchInsert(data, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::count", 
+	    	"contents"	: "count(query, limit, skip)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::createDBRef", 
+	    	"contents"	: "createDBRef(object)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::deleteIndex", 
+	    	"contents"	: "deleteIndex(keys)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::deleteIndexes", 
+	    	"contents"	: "deleteIndexes()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::distinct", 
+	    	"contents"	: "distinct(key, query)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::drop", 
+	    	"contents"	: "drop()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::ensureIndex", 
+	    	"contents"	: "ensureIndex(keys, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::find", 
+	    	"contents"	: "find(query, fields)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::findAndModify", 
+	    	"contents"	: "findAndModify(query, update, fields, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::findOne", 
+	    	"contents"	: "findOne(query, fields)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::getDBRef", 
+	    	"contents"	: "getDBRef(ref)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::getIndexInfo", 
+	    	"contents"	: "getIndexInfo()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::getName", 
+	    	"contents"	: "getName()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::getReadPreference", 
+	    	"contents"	: "getReadPreference()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::getSlaveOkay", 
+	    	"contents"	: "getSlaveOkay()"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::group", 
+	    	"contents"	: "group(keys, initial, reduce, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::insert", 
+	    	"contents"	: "insert(data, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::remove", 
+	    	"contents"	: "remove(criteria, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::save", 
+	    	"contents"	: "save(data, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::setReadPreference", 
+	    	"contents"	: "setReadPreference(read_preference, tags)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::setSlaveOkay", 
+	    	"contents"	: "setSlaveOkay(ok)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::toIndexString", 
+	    	"contents"	: "toIndexString(keys)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::update", 
+	    	"contents"	: "update(criteria, data, options)"
+    	},
+    	{ 
+	    	"trigger"	: "MongoCollection::validate", 
+	    	"contents"	: "validate(scan_data)"
+    	}
+  	]
+}

@@ -1,0 +1,53 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"php",
+
+    	{ 
+	    	"trigger"	: "MongoClient", 
+	    	"contents"	: "new MongoClient(server, options)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::close", 
+	    	"contents"	: "close(connection)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::connect", 
+	    	"contents"	: "connect()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::getConnections", 
+	    	"contents"	: "getConnections()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::getHosts", 
+	    	"contents"	: "getHosts()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::getReadPreference", 
+	    	"contents"	: "getReadPreference()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::listDBs", 
+	    	"contents"	: "listDBs()" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::selectCollection", 
+	    	"contents"	: "selectCollection(database, collection)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::selectDB", 
+	    	"contents"	: "selectDB(database)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::setReadPreference", 
+	    	"contents"	: "setReadPreference(read_preference, tags)" 
+    	},
+    	{ 
+	    	"trigger"	: "MongoClient::selectCollection", 
+	    	"contents"	: "selectCollection(read_preference, tags)"
+    	}
+  	]
+}

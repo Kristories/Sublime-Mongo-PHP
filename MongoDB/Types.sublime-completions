@@ -1,0 +1,61 @@
+{
+	"scope": "source.php - variable.other.php",
+
+	"completions":
+	[
+		"php",
+
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoId", 
+	    	"contents"	: "new MongoId()"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoCode", 
+	    	"contents"	: "new MongoCode(code, scope)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoDate", 
+	    	"contents"	: "new MongoDate(sec, usec)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoRegex", 
+	    	"contents"	: "MongoRegex(regex)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoBinData", 
+	    	"contents"	: "MongoBinData(data, type)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoInt32", 
+	    	"contents"	: "MongoInt32(value)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoInt64", 
+	    	"contents"	: "MongoInt64(value)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoDBRef::create", 
+	    	"contents"	: "create(collection, _id)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoDBRef::get", 
+	    	"contents"	: "get(database, ref)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoDBRef::isRef", 
+	    	"contents"	: "isRef(ref)"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoMinKey", 
+	    	"contents"	: "new MongoMinKey"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoMaxKey", 
+	    	"contents"	: "new MongoMaxKey"
+    	},
+    	{ 
+	    	"trigger"	: "Mongo|Type::MongoTimestamp", 
+	    	"contents"	: "new MongoTimestamp(sec, increment)"
+    	}
+  	]
+}

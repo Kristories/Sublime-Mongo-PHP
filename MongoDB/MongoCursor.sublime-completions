@@ -1,0 +1,125 @@
+{
+    "scope": "source.php - variable.other.php",
+
+    "completions":
+    [
+        "php",
+
+        { 
+            "trigger"   : "MongoCursor::addOption", 
+            "contents"  : "addOption(key, value)"
+        },
+        { 
+            "trigger"   : "MongoCursor::awaitData", 
+            "contents"  : "awaitData(wait)"
+        },
+        { 
+            "trigger"   : "MongoCursor::batchSize", 
+            "contents"  : "batchSize(batchSize)"
+        },
+        { 
+            "trigger"   : "MongoCursor::count", 
+            "contents"  : "count(foundOnly)"
+        },
+        { 
+            "trigger"   : "MongoCursor::current", 
+            "contents"  : "current()"
+        },
+        { 
+            "trigger"   : "MongoCursor::dead", 
+            "contents"  : "dead()"
+        },
+        { 
+            "trigger"   : "MongoCursor::explain", 
+            "contents"  : "explain()"
+        },
+        { 
+            "trigger"   : "MongoCursor::fields", 
+            "contents"  : "fields(fields)"
+        },
+        { 
+            "trigger"   : "MongoCursor::getNext", 
+            "contents"  : "getNext()"
+        },
+        { 
+            "trigger"   : "MongoCursor::getReadPreference", 
+            "contents"  : "getReadPreference()"
+        },
+        { 
+            "trigger"   : "MongoCursor::hasNext", 
+            "contents"  : "hasNext()"
+        },
+        { 
+            "trigger"   : "MongoCursor::hint", 
+            "contents"  : "hint(key_pattern)"
+        },
+        { 
+            "trigger"   : "MongoCursor::immortal", 
+            "contents"  : "immortal(liveForever)"
+        },
+        { 
+            "trigger"   : "MongoCursor::info", 
+            "contents"  : "info()"
+        },
+        { 
+            "trigger"   : "MongoCursor::key", 
+            "contents"  : "key()"
+        },
+        { 
+            "trigger"   : "MongoCursor::limit", 
+            "contents"  : "limit(num)"
+        },
+        { 
+            "trigger"   : "MongoCursor::next", 
+            "contents"  : "next()"
+        },
+        { 
+            "trigger"   : "MongoCursor::partial", 
+            "contents"  : "partial(ok)"
+        },
+        { 
+            "trigger"   : "MongoCursor::reset", 
+            "contents"  : "reset()"
+        },
+        { 
+            "trigger"   : "MongoCursor::rewind", 
+            "contents"  : "rewind()"
+        },
+        { 
+            "trigger"   : "MongoCursor::setFlag", 
+            "contents"  : "setFlag(flag, set)"
+        },
+        { 
+            "trigger"   : "MongoCursor::setReadPreference", 
+            "contents"  : "setReadPreference(read_preference, tags)"
+        },
+        { 
+            "trigger"   : "MongoCursor::skip", 
+            "contents"  : "skip(num)"
+        },
+        { 
+            "trigger"   : "MongoCursor::slaveOkay", 
+            "contents"  : "slaveOkay(ok)"
+        },
+        { 
+            "trigger"   : "MongoCursor::snapshot", 
+            "contents"  : "snapshot()"
+        },
+        { 
+            "trigger"   : "MongoCursor::sort", 
+            "contents"  : "sort(fields)"
+        },
+        { 
+            "trigger"   : "MongoCursor::tailable", 
+            "contents"  : "tailable(tail)"
+        },
+        { 
+            "trigger"   : "MongoCursor::timeout", 
+            "contents"  : "timeout(ms)"
+        },
+        { 
+            "trigger"   : "MongoCursor::valid", 
+            "contents"  : "valid()"
+        }
+    ]
+}
