@@ -42,3 +42,5 @@ I've included every MongoDB function I could find, but if I've missed anything o
 ## Author & License
 
 [Wahyu Kristianto](http://uzaklab.com/) | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
+
+[![endorse](http://api.coderwall.com/kristories/endorsecount.png)](http://coderwall.com/kristories)
