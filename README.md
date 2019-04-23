@@ -1,8 +1,6 @@
-# Sublime Text 2 Completions for MongoDB - PHP
+# [ABANDONED] Sublime Text 2 Completions for MongoDB - PHP
 
 Sublime Text 2 Completions for MongoDB - PHP Package is a collection of MongoDB snippets and autocompletions for Sublime Text 2.
-
-![MongoDB - PHP](https://dl.dropbox.com/u/83581209/uzaklab/img/MongoDB%20-%20PHP%20for%20Sublime%20Text%202/Preview.jpg)
 
 ## Installation
 
@@ -41,6 +39,4 @@ I've included every MongoDB function I could find, but if I've missed anything o
 
 ## Author & License
 
-[Wahyu Kristianto](http://uzaklab.com/) | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
-
-[![endorse](http://api.coderwall.com/kristories/endorsecount.png)](http://coderwall.com/kristories)
+Wahyu Kristianto | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US)
